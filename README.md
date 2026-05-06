@@ -1,20 +1,7 @@
-![Argon](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon_new_animate.svg)
-
-**简体中文** | [繁體中文](README_tw.md) | [English](README_en.md) | [Russian](README_ru.md)
-
 # Argon-Theme
 Argon - 轻盈、简洁、美观的 WordPress 主题
 
-Hexo 版本 : [github.com/solstice23/hexo-theme-argon](https://github.com/solstice23/hexo-theme-argon)
-
-[![GitHub release](https://img.shields.io/github/v/release/solstice23/argon-theme?color=%235e72e4&style=for-the-badge)](https://github.com/solstice23/argon-theme/releases) [![GitHub All Releases](https://img.shields.io/github/downloads/solstice23/argon-theme/total?style=for-the-badge)](https://github.com/solstice23/argon-theme/releases) [![GitHub](https://img.shields.io/github/license/solstice23/argon-theme?color=blue&style=for-the-badge)](https://github.com/solstice23/argon-theme/blob/master/LICENSE) [![Author]( https://img.shields.io/badge/author-solstice23-yellow?style=for-the-badge)](https://github.com/solstice23) [![GitHub stars](https://img.shields.io/github/stars/solstice23/argon-theme?color=ff69b4&style=for-the-badge)](https://github.com/solstice23/argon-theme/stargazers)
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/solstice23/argon-theme?style=flat-square)](https://github.com/solstice23/argon-theme/commits/master) [![GitHub Release Date](https://img.shields.io/github/release-date/solstice23/argon-theme?style=flat-square)](https://github.com/solstice23/argon-theme/releases) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/solstice23/argon-theme?style=flat-square)
-
-# 状态
-
-> 重构初步完成，1.x 版本将冻结开发，PR 请提交到 [dev](https://github.com/solstice23/argon-theme/tree/dev) 分支。后续将逐渐重构前端代码。
-
+由原作者 solstice23 维护的 Hexo 版本 : [github.com/solstice23/hexo-theme-argon](https://github.com/solstice23/hexo-theme-argon)
 
 # 特性
 
@@ -36,19 +23,6 @@ Hexo 版本 : [github.com/solstice23/hexo-theme-argon](https://github.com/solsti
 
 在 [Release](https://github.com/solstice23/argon-theme/releases) 页面下载 .zip 文件，在 WordPress 后台 "主题" 页面上传并安装。
 
-# 文档
-
-[Argon-Theme 文档 : https://argon-docs.solstice23.top](https://argon-docs.solstice23.top/)
-
-# Demo / 用户墙
-
-[solstice23.top](https://solstice23.top)
-
-[argon-demo.solstice23.top](http://argon-demo.solstice23.top)
-
-前往 [Argon 用户墙](https://argon-showcase.solstice23.top/) 查看更多博客的主题效果。
-
-
 # 注意
 
 Argon 使用 [GPL V3.0](https://github.com/solstice23/argon-theme/blob/master/LICENSE) 协议开源，请遵守此协议进行二次开发等。
@@ -56,23 +30,6 @@ Argon 使用 [GPL V3.0](https://github.com/solstice23/argon-theme/blob/master/LI
 您**必须在页脚保留 Argon 主题的名称及其链接**，否则请不要使用 Argon 主题。
 
 您**可以删除**页脚的作者信息，但是**不能删除** Argon 主题的名称和链接。
-
-# 渲染
-
-![render1](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-1.jpg)
-
-![render2](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-2.jpg)
-
-![render3](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-3.jpg)
-
-![render4](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-4.jpg)
-
-![render5](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-5.jpg)
-
-# Telegram 频道
-[t.me/argontheme](https://t.me/argontheme)
-
-自动推送更新消息以及其他关于 Argon 的消息
 
 # 更新日志
 
@@ -832,8 +789,3 @@ Argon 使用 [GPL V3.0](https://github.com/solstice23/argon-theme/blob/master/LI
 + 针对 Wordpress 管理条进行处理
 + 修复夜间模式的一些问题
 + 修改一些细节
-
-# 捐赠
-如果你觉得 Argon 主题不错，可以请我一杯咖啡来支持我的开发。
-
-![微信捐赠码](https://img.solstice23.top/2020/03/07/fc4b804bf938b.png)
