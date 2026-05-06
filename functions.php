@@ -625,7 +625,7 @@ function have_catalog(){
 		return true;
 	}
 	$content = get_post(get_the_ID()) -> post_content;
-	if (preg_match('/<h[1-6](.*?)>/',$content)){
+	if (preg_match('/<(h[1-6])[^>]*>|^#{1,6}\s/m',$content)){
 		return true;
 	}else{
 		return false;
