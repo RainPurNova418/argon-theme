@@ -162,7 +162,7 @@ html.immersion-color.darkmode body {
 .card,
 .dropdown-menu,
 .dropdown-menu:before {
-	background-color: var(--color-foreground) !important;
+	background-color: rgba(var(--color-foreground),0.7) !important;
 }
 .form-control,
 .form-control:focus,
@@ -567,6 +567,9 @@ html.use-big-shadow *.shadow-sm {
 /*卡片圆角*/
 .card {
 	border-radius: var(--card-radius);
+}
+.card::hover {
+	background-color: rgba(var(--color-foreground), 0.9);
 }
 /*主题色适配*/
 .text-primary {
@@ -5235,4 +5238,29 @@ html.using-safari #blog_setting_card_radius_to_default:before {
 }
 html.using-safari .friend-link-description:after {
 	display: none;
+}
+
+/*==========================================*/
+/*Light mode*/
+.card:not(.argon-timeline-card,.timeline-card),
+.leftbar_part1,
+.leftbar-menu-subitem {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    transition: background-color 0.3s ease;
+}
+
+.card:not(.argon-timeline-card):hover {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+/*Dark Mode*/
+html.darkmode .card:not(.argon-timeline-card) {
+    background-color: rgba(30, 30, 30, 0.7) !important;
+    color: #cccccc !important;
+    border: 1px solid #333333 !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    transition: background-color 0.3s ease;
+}
+
+html.darkmode .card:not(.argon-timeline-card):hover {
+    background-color: rgba(30, 30, 30, 0.9) !important;
 }
